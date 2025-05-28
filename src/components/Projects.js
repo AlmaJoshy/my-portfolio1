@@ -15,20 +15,24 @@ function Projects() {
         Projects
       </h2>
 
-      {/* Project 1 */}
+      {/* Emergency Location Sender */}
       <div
         style={{
-          backgroundColor: "#f5f5f5",         // light gray background
+          backgroundColor: "#f5f5f5",
           borderRadius: "12px",
           padding: "1.5rem",
           marginBottom: "1rem",
-          boxShadow: "0 2px 8px rgba(0, 172, 193, 0.1)", // subtle sky blue shadow
+          boxShadow: "0 2px 8px rgba(0, 172, 193, 0.1)",
         }}
       >
-        <h3 style={{ marginTop: 0, color: "#263238" }}>{`Project 1 Title`}</h3>
-        <p style={{ color: "#212121" }}>{`Short description for project 1.`}</p>
+        <h3 style={{ marginTop: 0, color: "#263238" }}>
+          Emergency Location Sender (TinkerHub Hackathon)
+        </h3>
+        <p style={{ color: "#212121" }}>
+          A mobile-integrated system that sends the user’s real-time location to a designated emergency contact in the event of a natural disaster or emergency. Designed and implemented during a 24-hour hackathon.
+        </p>
         <a
-          href="https://github.com/yourproject1"
+          href="https://github.com/AlmaJoshy/EmergencyAlert"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "#00acc1", textDecoration: "none" }}
@@ -39,7 +43,7 @@ function Projects() {
         </a>
       </div>
 
-      {/* Project 2 */}
+      {/* Medical Insurance Fraud Detection */}
       <div
         style={{
           backgroundColor: "#f5f5f5",
@@ -49,10 +53,14 @@ function Projects() {
           boxShadow: "0 2px 8px rgba(0, 172, 193, 0.1)",
         }}
       >
-        <h3 style={{ marginTop: 0, color: "#263238" }}>{`Project 2 Title`}</h3>
-        <p style={{ color: "#212121" }}>{`Short description for project 2.`}</p>
+        <h3 style={{ marginTop: 0, color: "#263238" }}>
+          Medical Insurance Fraud Detection
+        </h3>
+        <p style={{ color: "#212121" }}>
+          A full-stack web application that detects fraudulent medical insurance claims using a machine learning classifier. Built with React (frontend), FastAPI (backend), and SQLite (database), with REST APIs for real-time classification.
+        </p>
         <a
-          href="https://github.com/yourproject2"
+          href="https://github.com/AlmaJoshy/medicalinsurance"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "#00acc1", textDecoration: "none" }}

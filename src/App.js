@@ -7,10 +7,11 @@ import Contact from './components/Contacts';
 
 function App() {
   return (
-    <div>
+    <div style={{ fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" }}>
+      {/* Navigation Bar */}
       <nav
         style={{
-          backgroundColor: "#263238",       // charcoal dark gray
+          backgroundColor: "#263238",       // charcoal
           padding: "1rem 2rem",
           display: "flex",
           justifyContent: "center",
@@ -26,11 +27,13 @@ function App() {
             key={section}
             href={`#${section}`}
             style={{
-              color: "#f5f5f5",              // light gray text
+              color: "#f5f5f5",
               textDecoration: "none",
+              fontSize: "1rem",
               transition: "color 0.3s ease",
+              letterSpacing: "0.5px"
             }}
-            onMouseEnter={(e) => (e.currentTarget.style.color = "#00acc1")}  // sky blue hover
+            onMouseEnter={(e) => (e.currentTarget.style.color = "#00acc1")}
             onMouseLeave={(e) => (e.currentTarget.style.color = "#f5f5f5")}
           >
             {section.charAt(0).toUpperCase() + section.slice(1)}
@@ -38,36 +41,43 @@ function App() {
         ))}
       </nav>
 
+      {/* Main Container */}
       <div
         style={{
-          maxWidth: "900px",
+          maxWidth: "1000px",
           margin: "2rem auto",
           padding: "2rem",
-          backgroundColor: "#f5f5f5",     // light gray background
+          backgroundColor: "#ffffff",
           borderRadius: "12px",
-          boxShadow: "0 4px 12px rgba(0, 172, 193, 0.1)",  // subtle sky blue shadow
+          boxShadow: "0 8px 24px rgba(0, 0, 0, 0.08)",
         }}
       >
+        {/* Header Title */}
         <header
           style={{
-            backgroundColor: "#263238",   // charcoal header background
-            color: "#00acc1",             // sky blue text
-            padding: "1rem 2rem",
+            backgroundColor: "#263238",
+            color: "#00acc1",
+            padding: "1.5rem 2rem",
+            borderRadius: "8px",
+            textAlign: "center",
+            marginBottom: "2rem",
           }}
         >
           <h1
             style={{
-              fontSize: "1.8rem",
-              marginBottom: "1rem",
-              borderBottom: "3px solid #00acc1", // sky blue underline
-              paddingBottom: "0.3rem",
+              fontSize: "2.5rem",
+              margin: 0,
+              borderBottom: "2px solid #00acc1",
+              paddingBottom: "0.5rem",
               fontWeight: "700",
+              display: "inline-block"
             }}
           >
-            Hi, I'm Alma Gace Joshy
+            Let’s Build Something Amazing Together
           </h1>
         </header>
 
+        {/* Sections */}
         <section id="home">
           <Home />
         </section>

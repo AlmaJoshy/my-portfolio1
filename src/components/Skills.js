@@ -24,9 +24,21 @@ function Skills() {
         }}
       >
         <ul style={{ listStyleType: "square", color: "#212121", paddingLeft: "1.5rem" }}>
-          <li style={{ marginBottom: "0.5rem" }}>JavaScript</li>
-          <li style={{ marginBottom: "0.5rem" }}>React</li>
-          <li style={{ marginBottom: "0.5rem" }}>Python</li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            <strong>Languages:</strong> Python, Java, C, JavaScript
+          </li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            <strong>Frontend:</strong> HTML, CSS, React
+          </li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            <strong>Backend:</strong> FastAPI, SQLite
+          </li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            <strong>Tools & Platforms:</strong> Git, VS Code, GitHub, Google Cloud
+          </li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            <strong>Other:</strong> Machine Learning, Project Management
+          </li>
         </ul>
       </div>
     </section>

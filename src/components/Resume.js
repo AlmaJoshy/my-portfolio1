@@ -25,7 +25,7 @@ function Resume() {
         <p style={{ fontSize: "1rem", color: "#212121" }}>
           You can{" "}
           <a
-            href="/resume_alma.pdf"
+            href="https://github.com/AlmaJoshy/my-portfolio1/blob/main/public/resume_alma.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#00acc1", textDecoration: "none" }}
