@@ -8,16 +8,16 @@ function Resume() {
           fontSize: "1.5rem",
           marginBottom: "1rem",
           paddingBottom: "0.5rem",
-          color: "#263238",              // charcoal text
+          color: "#263238",
         }}
       >
         <h2
           style={{
             fontSize: "1.5rem",
             marginBottom: "1rem",
-            borderBottom: "2px solid #00acc1",  // sky blue border
+            borderBottom: "2px solid #00acc1",
             paddingBottom: "0.5rem",
-            color: "#263238",                     // charcoal text
+            color: "#263238",
           }}
         >
           Resume
@@ -25,7 +25,7 @@ function Resume() {
         <p style={{ fontSize: "1rem", color: "#212121" }}>
           You can{" "}
           <a
-            href="your-resume-link.pdf"
+            href="/resume_alma.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#00acc1", textDecoration: "none" }}
