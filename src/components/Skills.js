@@ -2,13 +2,33 @@ import React from 'react';
 
 function Skills() {
   return (
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Python</li>
-      </ul>
+    <section id="skills">
+      <h2
+        style={{
+          fontSize: "1.5rem",
+          marginBottom: "1rem",
+          borderBottom: "2px solid #00acc1", // sky blue border
+          paddingBottom: "0.5rem",
+          color: "#263238", // charcoal text
+        }}
+      >
+        Skills
+      </h2>
+
+      <div
+        style={{
+          backgroundColor: "#f5f5f5", // light gray background
+          borderRadius: "12px",
+          padding: "1.5rem",
+          boxShadow: "0 2px 8px rgba(38, 50, 56, 0.1)", // subtle charcoal shadow
+        }}
+      >
+        <ul style={{ listStyleType: "square", color: "#212121", paddingLeft: "1.5rem" }}>
+          <li style={{ marginBottom: "0.5rem" }}>JavaScript</li>
+          <li style={{ marginBottom: "0.5rem" }}>React</li>
+          <li style={{ marginBottom: "0.5rem" }}>Python</li>
+        </ul>
+      </div>
     </section>
   );
 }
